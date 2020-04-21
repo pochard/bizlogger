@@ -7,7 +7,7 @@ import (
 
 type TabLogger struct {
 	output *logrotator.TimeBasedRotator
-	sep     string
+	sep    string
 }
 
 // output like t1,t2,t3\n
